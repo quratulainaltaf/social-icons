@@ -1,0 +1,54 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.social-icons
+{
+	position:absolute;
+	left:0px;
+	top:150px;
+}
+.social-icons > ul
+{
+	list-style:none;
+}
+.social-icons > ul > li > a
+{
+	display: inline-block;
+	color:white;
+	padding:10px 15px;
+	font-size: 24px;
+	text-decoration:none;
+	max-width:51px;
+	transition: 0.3s
+}
+.social-icons > ul > li > .icon-fb
+{
+	background:#637cb5
+}
+.social-icons > ul > li > .icon-instagram
+{
+	
+	background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	
+}
+.social-icons > ul > li > a:hover
+{
+	padding:10px 50px;
+}
+.social-icons > ul > li > .icon-youtube
+{
+	background:#cd201f;
+	
+}
+.social-icons > ul > li > .icon-linkedin
+{
+	background:#0077B5;
+}
+.social-icons > ul > li > .icon-twitter
+{
+	background:#55acee;
+}
